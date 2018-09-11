@@ -1,0 +1,10 @@
+RewriteCond %{HTTP_HOST} ^lsdp\.co\.uk$
+RewriteRule ^(.*)$ http://www.lsdp.co.uk [R=301,L]
+
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^(.*)\.html$ $1.php [NC]
+ErrorDocument 404 /404.php
+
+AddType application/x-httpd-php .html .htm
