@@ -43,7 +43,7 @@
                 <div class="validation"></div>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="firm" id="firm" placeholder="Firm Name" data-rule="minlen:4" data-msg="Please enter a Firm Name" />
+                <input type="text" class="form-control" name="firm" id="firm" placeholder="Firm Name" data-rule="minlen:4" data-msg="Please enter a Firm Name" />
                 <div class="validation"></div>
               </div>
             </div>
