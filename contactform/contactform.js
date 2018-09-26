@@ -92,17 +92,17 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     $.ajax({
       type: "POST",
-      url: "contactform/contactform.php",
+      //url: "contactform/contactform.php",
       data: str,
       success: function(msg) {
-        // alert(msg);
+        // alert(msg);return false;
         if (msg == 'OK') {
           $("#sendmessage").addClass("show");
-          $("#errormessage").removeClass("show");
+          $("#errormessagecontactform").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
         } else {
           $("#sendmessage").removeClass("show");
-          $("#errormessage").addClass("show");
+          $("#errormessagecontactform").addClass("show");
           $('#errormessage').html(msg);
         }
 
