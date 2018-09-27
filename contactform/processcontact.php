@@ -2,10 +2,12 @@
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
     require '../vendor/autoload.php';
+    define('ACCOUNT_EMAIL','info@anmmediallc.com');
+    define('ACCOUNT_EMAIL_PWD','anm@info#!@');
     if (!empty($_POST)){
       //Initialize
       //define('TO_EMAIL','info@entigrity.com');
-      define('TO_EMAIL','dipak@entigrity.com');
+      define('TO_EMAIL',ACCOUNT_EMAIL);
       $name     = trim($_POST['name']);
       $firm     = trim($_POST['firm']);
       $phone    = trim($_POST['phone']);
@@ -29,14 +31,14 @@
       }
       //Message body initialize
       $messageBody   = '';
-      $messageBody  .= "\n\r<br>ANM MEDIA\n\n\r\r";
+      $messageBody  .= "\n\r<br>Congratulation you got inquiry!\n\n\r\r";
       $messageBody  .= "\n\r<br><br>Contact Form Inquiry arrived at ANM MEDIA\n\r";
       $messageBody  .= "\n\r<br><br>Name : {$name}\n\r";
       $messageBody  .= "<br>Firm Name : {$firm}\n\r";
       $messageBody  .= "<br>Email : {$from_email}\n\r";
       $messageBody  .= "<br>Contact no : {$phone}\n\r";
       $messageBody  .= "<br>Message : {$message}\n\r";
-      $to_email = TO_EMAIL;
+      $to_email = ACCOUNT_EMAIL;
       $subject  = "Contact Form Inquiry Arrived"."\n\r";
 
       $headers  = "From: email";    
@@ -51,15 +53,18 @@
         $mail->isSMTP();                                             // Set mailer to use SMTP
         $mail->Host     = 'smtp.gmail.com';   // Specify main and backup SMTP servers
         $mail->SMTPAuth   = true;                                    // Enable SMTP authentication
-        $mail->Username   = 'dipak.acharya162@gmail.com';                      // SMTP username
-        $mail->Password   = 'Krishna@123';                               // SMTP password
+        //$mail->Username   = 'dipak.acharya162@gmail.com';                      // SMTP username
+        $mail->Username   = ACCOUNT_EMAIL;
+        //$mail->Password   = 'Krishna@123';                               // SMTP password
+        $mail->Password   = ACCOUNT_EMAIL_PWD;                           // SMTP password
         $mail->SMTPSecure = 'tls';                                 // Enable TLS encryption, `ssl` also accepted
         $mail->Port       = 587;                                     // TCP port to connect to
         //Recipients
-        $mail->setFrom('dipak.acharya162@gmail.com', 'ANM');
-        $mail->addAddress('dipak@entigrity.com', 'Dipak Acharya');     // Add a recipient
-        $mail->addAddress('dipaks_id@yahoo.co.in');               // Name is optional
-        $mail->addReplyTo('dipak.acharya162@gmail.com', 'Information');
+        $mail->setFrom(ACCOUNT_EMAIL, 'ANM MEDIA Inquiry');
+        //$mail->addAddress('dipak@entigrity.com', 'Dipak Acharya');     // Add a recipient
+        $mail->addAddress(ACCOUNT_EMAIL,'ANM MEDIA Inquiry');               // Name is optional
+        $mail->addAddress('chris@anmmediallc.com','ANM MEDIA Inquiry');               // Name is optional
+        $mail->addReplyTo(ACCOUNT_EMAIL, 'ANM');
         //$mail->addCC('cc@example.com');
         //$mail->addBCC('bcc@example.com');
         //Attachments
