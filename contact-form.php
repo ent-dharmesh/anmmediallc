@@ -29,6 +29,7 @@
     <div class="form">
       <div id="sendmessage">Your message has been sent. Thank you!</div>
         <div id="errormessagecontactform"></div>
+        <div id="loading" style="display:block;"><img src="img/loader.gif" alt="Loader" /></div>
         <form action="" method="post" role="form" class="contactForm">
           <div class="form-row">
             <div class="form-group col-md-6">

@@ -28,13 +28,17 @@
         echo 'Please enter message.';exit;
       }
       //Message body initialize
-      $messageBody  = 'Hello Entigrity, <br>'."\n\r";
-      $messageBody .= "\n\r$name($phone,$from_email) belongs to $firm has send you below message";
-      $messageBody .= "\n\r<br>Message : ".$message."\n\r";
-
+      $messageBody   = '';
+      $messageBody  .= "\n\r<br>ANM MEDIA\n\n\r\r";
+      $messageBody  .= "\n\r<br><br>Contact Form Inquiry arrived at ANM MEDIA\n\r";
+      $messageBody  .= "\n\r<br><br>Name : {$name}\n\r";
+      $messageBody  .= "<br>Firm Name : {$firm}\n\r";
+      $messageBody  .= "<br>Email : {$from_email}\n\r";
+      $messageBody  .= "<br>Contact no : {$phone}\n\r";
+      $messageBody  .= "<br>Message : {$message}\n\r";
       $to_email = TO_EMAIL;
-      $subject  = $name." has contacted you from ANM.";
-      $message  = $messageBody;
+      $subject  = "Contact Form Inquiry Arrived"."\n\r";
+
       $headers  = "From: email";    
       sendMail($to_email,$subject,$messageBody, $from_email);
     }
@@ -52,7 +56,7 @@
         $mail->SMTPSecure = 'tls';                                 // Enable TLS encryption, `ssl` also accepted
         $mail->Port       = 587;                                     // TCP port to connect to
         //Recipients
-        $mail->setFrom('dipak.acharya162@gmail.com', 'Mailer');
+        $mail->setFrom('dipak.acharya162@gmail.com', 'ANM');
         $mail->addAddress('dipak@entigrity.com', 'Dipak Acharya');     // Add a recipient
         $mail->addAddress('dipaks_id@yahoo.co.in');               // Name is optional
         $mail->addReplyTo('dipak.acharya162@gmail.com', 'Information');

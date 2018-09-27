@@ -1,6 +1,13 @@
 jQuery(document).ready(function($) {
   "use strict";
+    $("#loading").css("display", "none");
+    $(document).ajaxStart(function(){
+        $("#loading").css("display", "block");
+    });
 
+    $(document).ajaxComplete(function(){
+        $("#loading").css("display", "none");
+    });
   //Contact
   $('form.contactForm').submit(function() {
     var f = $(this).find('.form-group'),

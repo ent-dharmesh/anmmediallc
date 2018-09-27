@@ -1472,6 +1472,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .privacyPolicy ol{padding-left:17px;}
 .privacyPolicy ol li{margin-bottom:15px;}
 
+.form{position: relative;margin: 0;padding: 0;}
+#loading{display: block;position: absolute;z-index: 10;margin: 0 auto;padding: 0;top: 17%;left: 0;right: 0;bottom: 0;width: 100px;height: 100px;}
+
 
 
 
