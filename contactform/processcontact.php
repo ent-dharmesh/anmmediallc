@@ -3,7 +3,7 @@
     use PHPMailer\PHPMailer\Exception;
     require '../vendor/autoload.php';
     define('ACCOUNT_EMAIL','info@anmmediallc.com');
-    define('ACCOUNT_EMAIL_PWD','anm@info#!@');
+    define('ACCOUNT_EMAIL_PWD','Q5CnMd>T');
     if (!empty($_POST)){
         define('TO_EMAIL',ACCOUNT_EMAIL);
         $name     = trim($_POST['name']);
@@ -72,7 +72,8 @@
             echo 'OK';
             return;
         } catch (Exception $e) {
-            echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;exit;
+            $error = ['error' => $mail->ErrorInfo ];
+            echo json_encode($error);exit;
         }
     }
 ?>

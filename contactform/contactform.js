@@ -107,13 +107,16 @@ jQuery(document).ready(function($) {
           $("#sendmessage").addClass("show");
           $("#errormessagecontactform").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
-
+          $('#sendmessage').css({'border':'1px solid green'});
         } else {
-          $("#sendmessage").removeClass("show");
-          $("#errormessagecontactform").addClass("show");
-          $('#errormessage').html(msg);
+           msg = JSON.parse(msg);
+          $("#sendmessage").addClass("show").text("").text(msg.error);
+          $('sendmessage').html(msg.error);
+          $('#sendmessage').css({'border':'1px solid red','color':'red'});
+          //$("#errormessagecontactform").addClass("show").text(msg.error);
+          //$('#errormessagecontactform').html(msg.error);
         }
-        
+
       },
       error: function (xhr, status) {
         alert(status);return false;
