@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>..:: ANM Media LLC ::..</title>
+  <title>About ANM Media | Accounts Network Marketing</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-
+     
+  <meta name="title" content="About ANM Media | Accounts Network Marketing">
+  <meta name="description" content="ANM Media Providing a platform to vendors in accounting and tax industry to showcase their product or services with right targeted audience">
+  <meta name="keywords" content="Accounting vendors Marketing, Email Marketing, Accounting software marketing, How to market Products in Accounting">    
+    
   <!-- Favicons -->
   <link href="img/favicon.ico" rel="icon">
 
@@ -34,6 +38,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125624126-1"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-125624126-1');
+  </script>
+      
 </head>
 
 <body>

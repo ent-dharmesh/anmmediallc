@@ -35,6 +35,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125624126-1"></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-125624126-1');
+    </script>
+    
 </head>
 
 <body>
@@ -71,9 +81,10 @@
 				</div>
 				<div class="col-md-6 order-sm-1">
 					<div class="process_content" >
-						<div class="process_number">01</div>
-						<h2>Boost Your Marketing</h2>
-						<p>Engagement is most important irrespective of whatever marketing avenue you choose. Why not cut a little budget out of conventional marketing and allocate that to our campaigns. It will cost a lot less and give as much as 5X ROI. It can be even used efficiently to drive your target audience towards your own other campaigns and give it the boost it may require.</p>
+						<!--<div class="process_number">01</div>-->
+						<h2>Boost your Marketing</h2>
+						<p>Our successful targeted marketing campaign urges and prompts the recipients to take action, engage with your product or services, and help you get more leads and thereby, higher sales revenue. We also have a Results-Based (No Fixed Fees, all Results-Based only — i.e. views, clicks, sign-ups, sales, etc.) Campaign Engagement promotion model. Successfully leverage your existing marketing efforts through our target-based campaigns!</p>
+						<p>Why not cut-out a little budget from your conventional marketing plans, and allocate that to our campaigns? It costs significantly lesser, while giving as much as 5X ROI. It can even be used efficiently for leading your target audience towards your own other campaigns, thus, giving it the boost it requires!</p>
 					</div>
 				</div>
 				</div>
@@ -89,9 +100,9 @@
 				</div>
 				<div class="col-md-6">
 					<div class="process_content" >
-						<div class="process_number">02</div>
+						<!--<div class="process_number">02</div>-->
 						<h2>Small Vendor Focus</h2>
-						<p>Although we work with several large vendor companies that intend to target accounting industry; but our focus is also upon smaller vendors. Depending on requirements we can create customized solutions for them, be it geo-targeted or requirement of customized content. Also, we don't hesitate to repeat over and over, the solutions are cost effective and at the same time they are more effective.</p>
+						<p>We only work with accounting vendors for promoting their product and services directly to target accounting industry professionals. We have different type of marketing campaigns, specifically designed and customized depending on the customer’s requirements. We can help you reach the entire national membership database, or we can geo-target regionally via geographically narrowed-down Email Marketing. A smaller vendor would focus on winning the segment of the market that they can win in, given a higher, reasonable chance of success. We have been helping vendors and advertisers in accounting industry in showcasing their products and solutions across multiple platforms effectively. Our Scalable Reach, Targeted Campaigns, and Credible Platforms fairly give very high ROI compared to numerous other marketing avenues.</p>
 					</div>
 				</div>
 				</div>
@@ -107,9 +118,9 @@
 				</div>
 				<div class="col-md-6 order-sm-1">
 					<div class="process_content" >
-						<div class="process_number">03</div>
+						<!--<div class="process_number">03</div>-->
 						<h2>Ahead of Competitors</h2>
-						<p>Our unparalleled reach to a vast number of accounting and finance professionals, supported by native content approach and results measured as per parameters are the key things that set us apart from others.  What's more important is that we provide analytics and reporting and allow Nurtured campaigns for a better tracking of the marketing being done. So that you reach and build meaningful relationships.</p>
+						<p>our marketing campaigns are designed at utilizing minimal capital and efforts, and delivering higher ROI. A marketing platform lets you track how a potential buyer interacts with your brand (e.g., email clicks, website visits, content downloads, and more). We provide a variety of reports, which help you quantify yours efforts and show real results. Prove the impact that your marketing campaigns have on your existing business initiatives. Beat your competitors using our marketing campaigns, and reach your targeted audience effectively. Stay ahead of your competition by analyzing your results routinely, empowering you to better predict possible future trends, and be aware of tiny changes and ripples instantaneously!</p>
 					</div>
 				</div>
 				</div>

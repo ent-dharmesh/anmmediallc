@@ -2,10 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>..:: ANM Media LLC ::..</title>
+  <title>What We Do – Accountants Network Marketing</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
+  
+  <meta name="title" content="What We Do – Accountants Network Marketing">
+  <meta name="description" content="ANM Media only work with Small and Mid-sized vendors in accounting industry, who wants to promote their products, services to Accounting Professionals across the Nation">
+  <meta name="keywords" content="Accounting Vendors, Marketing for Accounting vendors, Email Marketing, Accounting product Marketing">
+
+  
 
   <!-- Favicons -->
   <link href="img/favicon.ico" rel="icon">
@@ -35,6 +41,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125624126-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-125624126-1');
+    </script>    
 </head>
 
 <body>
@@ -50,7 +64,7 @@
   <section class="innerIntro">
     <div class="bannerTxtMain">
 		<h2>what we do</h2>
-		<p>For People Looking For Accoutants</p>
+		<p>Drive Campaigns To Help you Connect with Accounting Professionals Across the Nation</p>
 	</div>
   </section><!-- #intro -->
 
@@ -71,9 +85,9 @@
 				</div>
 				<div class="col-md-6 order-sm-1">
 					<div class="process_content" >
-						<div class="process_number">01</div>
-						<h2>Email Marketing</h2>
-						<p>Our customized & targeted email marketing and other online campaigns are data driven and optimized with your offering and target audience. It's the most effective way of Direct Marketing to generate the leads, awareness of brand, product and services our exclusive and dedicated email campaigns makes you, your brand, product and services stand out from the crowd.</p>
+						<!--<div class="process_number">01</div>-->
+						<h2>Targeted Email Campaign<span>Drive engagement with every email.</span></h2>
+						<p>Enhance emails with engaging content blocks, and One-Click, Call-To-Action that definitely deliver results! Our Email Marketing Campaign, for vendors across the accounting industry, is perhaps the most cost-effective tool delivering powerful solutions for one and all. Through email, we can help you directly expand your reach to more than 500,000 CPAs nationwide, including many more accounting & tax professionals. We specialize in delivering the right message to the right person(s). A successful email marketing campaign gets the recipients to take action, engage with your business, and help you get more leads and sales. Targeted email marketing really boosts your efforts in primary marketing and sales activities of your products and/or services. We tailor-make your email campaign according to your needs.</p>
 					</div>
 				</div>
 				</div>
@@ -89,27 +103,61 @@
 				</div>
 				<div class="col-md-6">
 					<div class="process_content" >
-						<div class="process_number">02</div>
+						<!--<div class="process_number">02</div>-->
 						<h2>Result Based Engagements</h2>
-						<p>Result based campaigns are solely meant to acheive the desired marketing targets in terms of numbers set as benchmark of success. It could be anything ranging from generating number of leads to increasing web traffic & video views or even promoting your kick starter events or upcoming webinars.</p>
+						<p>We help you drive up the revenue results for your business. Result-based engagement is whereby a company agrees to levy fees on the basis of mutually agreed results that may be achieved. In this campaign, marketing/advertising can be multi-channel i.e. email, social media, search engine, mobile phones, etc. Our results-oriented campaigns are completely data-driven, and based on performance. It could be anything ranging from generating number of leads to sign-up, increasing web traffic, video views, and get maximum number of registrations or Appointments scheduled for you.</p>
 					</div>
 				</div>
 				</div>
 			</div>
 			
 			
-			<div class="col-lg-12">
+			<div class="col-lg-12 ma-bo-100">
 				<div class="row">
 					<div class="col-md-6 order-sm-12">
 					<div class="process_bg">
-						<img style="width:100%;" src="img/Strategic-partnerships.jpg" alt="" title="" />
+						<img style="width:100%;" src="img/Targeted-Facebook-Marketing.jpg" alt="" title="" />
 					</div>
 				</div>
 				<div class="col-md-6 order-sm-1">
 					<div class="process_content" >
-						<div class="process_number">03</div>
-						<h2>Strategic partnerships</h2>
-						<p>We are open to alliances in shape of strategic partnerships where everything should be quantifiable and translate back to revenue generation as bilateral benefits. Through our unrivalled access to accounting industry we can deliver insight and expertise that helps you reach and build meaningful relationships with your customers of tomorrow.</p>
+						<!--<div class="process_number">03</div>-->
+						<h2>Targeted Facebook Marketing</h2>
+						<p>Our core audiences targeting options — the targeting features allow you to reach people based on their demographics, location, interests, and behaviors. Facebook Ads targeting options as they allow you to target people specifically interested in subjects related to your product or services. Using our database you can directly target specific people and place your video, advertisements, content etc. as Facebook posts. Our Targeted Facebook campaigns are specifically designed for Brand awareness, Consideration, and Conversion. </p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-12 ma-bo-100">
+				<div class="row">
+					<div class="col-md-6">
+					<div class="process_bg">
+						<img style="width:100%;" src="img/Strategic-partnerships.jpg" alt="" title="" />
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="process_content" >
+						<!--<div class="process_number">02</div>-->
+						<h2>Conference Campaign Drive</h2>
+						<p>Our Conference marketing campaign is significantly instrumental in driving attendees to sign-up and attend, which in turn drives the ROI of your event.  Conference Campaign Drive is strategically designed to bring more engagement & traffic to your booth & more conversion & leads post conference through structured follow-ups and establishing connections.  We do campaign for pre-conference, during, and post- conference for engaging the target audiences. Get increased exposure, and attract audience to your booth using our conference campaigns.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-12">
+				<div class="row">
+					<div class="col-md-6 order-sm-12">
+					<div class="process_bg">
+						<img style="width:100%;" src="img/Tier-Targeted-Campaign.jpg" alt="" title="" />
+					</div>
+				</div>
+				<div class="col-md-6 order-sm-1">
+					<div class="process_content" >
+						<!--<div class="process_number">03</div>-->
+						<h2>3-Tier Targeted Campaign</h2>
+						<p>This 3 Tier Targeted campaign is specially designed for vendors, which falls in B2B products and solutions category. Because of higher reception of 3 Tier Targeting, this Campaign has really very high Lead Generation rates compared to any traditional models. In 3-Tier Targeted Campaigns, we send out direct LinkedIn messages to prospects, Direct Calls, and email follow ups. Reports shall be shared with you with respect to this campaign strategy. Use data to enhance your upfront marketing strategy to reach more relevant buyers. Lap up the competition by boosting your Tier 3 marketing strategy with our specially designed and structured plans.</p>
 					</div>
 				</div>
 				</div>
